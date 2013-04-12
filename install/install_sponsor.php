@@ -26,7 +26,7 @@ $query = "
   `sp_image` varchar(255) NOT NULL,
   `sp_link` varchar(255) default NULL,
   `sp_group` enum('gold','silver','bronze') default 'gold',
-  `displayorder`int(3) NOT NULL default '0',
+  `displayorder` int(3) NOT NULL default '0',
   PRIMARY KEY  (`sponsorid`)
          );";
 
