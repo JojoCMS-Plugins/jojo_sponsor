@@ -58,7 +58,7 @@ $default_fd[$table][$field]['fd_help']     = 'Web link';
 $field = 'sp_linktext';
 $default_fd[$table][$field]['fd_order']    = $o++;
 $default_fd[$table][$field]['fd_type']     = 'text';
-$default_fd[$table][$field]['fd_required'] = 'yes';
+$default_fd[$table][$field]['fd_required'] = 'no';
 $default_fd[$table][$field]['fd_size']     = '80';
 $default_fd[$table][$field]['fd_help']     = 'Text to use for the link title (helps with SEO)';
 
@@ -71,7 +71,7 @@ $default_fd['sponsor']['sp_image'] = array(
         'fd_mode' => "standard",
         'fd_quickedit' => "yes",
     );
-    
+
 // Group Field
 $default_fd['sponsor']['sp_group'] = array(
         'fd_name' => "Group",
